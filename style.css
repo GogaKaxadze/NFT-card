@@ -96,9 +96,9 @@ p {
 .last {
   display: flex;
   margin-left: 26px;
-  margin-top: -16px;
+  margin-top: -4px;
 }
-span {
+.name {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
@@ -106,9 +106,9 @@ span {
   line-height: 20px;
   color: #8bacd9;
   margin-left: 16px;
-  padding-top: 4px;
+  padding-top: 6px;
 }
-span a {
+.name a {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
@@ -116,7 +116,7 @@ span a {
   line-height: 20px;
   color: #ffffff;
 }
-span a:active {
+.name a:active {
   color: #00fff8;
 }
 @media (min-width:768px) {
